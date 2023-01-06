@@ -1,0 +1,33 @@
+/* -------------------------------------------------------------------------- */
+/*                                 Theme                                      */
+/* -------------------------------------------------------------------------- */
+
+@import "../node_modules/bootstrap/scss/_functions.scss";
+@import "theme/functions";
+
+@import "../node_modules/bootstrap/scss/mixins";
+@import "theme/mixins";
+
+@import "user-variables";
+@import "theme/variables";
+@import "theme/_utilities.scss";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+// /*-----------------------------------------------
+// |   Bootstrap Styles
+// -----------------------------------------------*/
+// @import "bootstrap";
+
+// /*-----------------------------------------------
+// |   Theme Styles
+// -----------------------------------------------*/
+// @import "theme/theme";
+
+.color-r {
+  color: $red-100;
+}
+
+// /*-----------------------------------------------
+// |   User Styles
+// -----------------------------------------------*/
+@import "user";
