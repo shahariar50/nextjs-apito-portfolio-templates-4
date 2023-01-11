@@ -10,12 +10,13 @@ import HeroSection from "components/HeroSection";
 import MainLayout from "components/MainLayout";
 import PackageSection from "components/PackageSection";
 import TestemonialSection from "components/TestemonialSection";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <div class="main" id="top">
+    <div className="main" id="top">
       <MainLayout>
         <HeroSection />
         <ClientsSection />
@@ -28,6 +29,7 @@ export default function Home() {
         <FAQSection />
         <DownloadSection />
       </MainLayout>
+      <Script src="/statics/js/theme.js" />
     </div>
   );
 }

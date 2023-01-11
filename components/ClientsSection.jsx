@@ -1,34 +1,34 @@
 const ClientsSection = () => {
   return (
-    <section class="py-7">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 mx-auto align-items-center text-center">
-            <p class="mb-4">Trusted by companies like</p>
+    <section className="py-7">
+      <div className="container">
+        <div className="row">
+          <div className="col-12 mx-auto align-items-center text-center">
+            <p className="mb-4">Trusted by companies like</p>
           </div>
         </div>
-        <div class="row align-items-center justify-content-center justify-content-lg-around">
-          <div class="col-6 col-sm-4 col-md-4 col-lg-2 px-md-0 mb-5 mb-lg-0 text-center">
+        <div className="row align-items-center justify-content-center justify-content-lg-around">
+          <div className="col-6 col-sm-4 col-md-4 col-lg-2 px-md-0 mb-5 mb-lg-0 text-center">
             <picture>
               <img src="/statics/img/gallery/company-1.png" alt="" />
             </picture>
           </div>
-          <div class="col-6 col-sm-4 col-md-4 col-lg-2 px-md-0 mb-5 mb-lg-0 text-center">
+          <div className="col-6 col-sm-4 col-md-4 col-lg-2 px-md-0 mb-5 mb-lg-0 text-center">
             <picture>
               <img src="/statics/img/gallery/company-2.png" alt="" />
             </picture>
           </div>
-          <div class="col-6 col-sm-4 col-md-4 col-lg-2 px-md-0 mb-5 mb-lg-0 text-center">
+          <div className="col-6 col-sm-4 col-md-4 col-lg-2 px-md-0 mb-5 mb-lg-0 text-center">
             <picture>
               <img src="/statics/img/gallery/company-3.png" alt="" />
             </picture>
           </div>
-          <div class="col-6 col-sm-4 col-md-4 col-lg-2 px-md-0 mb-5 mb-lg-0 text-center">
+          <div className="col-6 col-sm-4 col-md-4 col-lg-2 px-md-0 mb-5 mb-lg-0 text-center">
             <picture>
               <img src="/statics/img/gallery/company-4.png" alt="" />
             </picture>
           </div>
-          <div class="col-6 col-sm-4 col-md-4 col-lg-2 px-md-0 mb-5 mb-lg-0 text-center">
+          <div className="col-6 col-sm-4 col-md-4 col-lg-2 px-md-0 mb-5 mb-lg-0 text-center">
             <picture>
               <img src="/statics/img/gallery/company-1.png" alt="" />
             </picture>

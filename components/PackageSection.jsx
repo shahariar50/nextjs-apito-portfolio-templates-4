@@ -15,10 +15,10 @@ const PackageSection = () => {
             </p>
           </div>
         </div>
-        <div className="row flex-center">
+        <div className="row justify-content-center">
           <div className="col-12 mb-3">
             <div className="d-flex justify-content-center">
-              <label className="form-check-label me-2" for="customSwitch1">
+              <label className="form-check-label me-2" htmlFor="customSwitch1">
                 Monthly
               </label>
               <div className="form-check form-switch">
@@ -26,11 +26,10 @@ const PackageSection = () => {
                   className="form-check-input"
                   id="customSwitch1"
                   type="checkbox"
-                  checked="checked"
                 />
                 <label
                   className="form-check-label align-top"
-                  for="customSwitch1"
+                  htmlFor="customSwitch1"
                 >
                   Yearly
                 </label>

@@ -15,7 +15,7 @@ const FAQSection = () => {
             </p>
           </div>
         </div>
-        <div className="row flex-center">
+        <div className="row justify-content-center">
           <div className="col-lg-9">
             <div className="accordion" id="accordionExample">
               <div className="accordion-item mb-2">
